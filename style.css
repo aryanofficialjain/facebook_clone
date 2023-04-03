@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body{
+	font-size: 10px;
+	background-color: #f0f2f5;
+}
+
+.contain{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+/*	background: dodgerblue;*/
+	height: 70vh;
+}
+
+.formimg{
+	margin-top: 50px;
+	margin-left: 50px;
+/*	width: 30em;*/
+flex-basis: 50%;
+/*background-color: 	yellow;*/
+text-align: left;
+
+}
+.formimg img{
+	width: 30em;
+	align-self: flex-start;
+}
+
+.formimg p{
+	padding: 0% 0% 0% 5%;
+/*	background: pink;*/
+	width: 95%;
+	font-size: 2.7em;
+/*	text-indent: 20px;*/
+/*text-align: right;*/
+align-self: flex-end;
+
+}
+
+.formbody{
+	margin-top: 100px;
+	margin-right: 100px;
+	box-shadow: 2px 3px 10px grey;
+	border-radius: 10px;
+	justify-self: flex-start;
+	background-color: white;
+/*	height: 40vh;*/
+flex-basis: 350px;
+	text-align: center;
+/*	align-self: center;*/
+/*align-items: center;*/
+}
+
+
+.formbody input{
+	margin: 10px 0px 10px 0px;
+/*	border-radius: none;*/
+	width: 82%;
+	border-radius: 10px;
+	border: none;
+	border: 1.5px solid lightgrey;
+	font-size: 18px;
+	padding: 12px 18px;
+}
+
+#input2{
+	margin: 5px 0px 10px 0px;
+	border-radius: 10px;
+	width: 82%;
+	padding: 12px 18px;
+}
+
+
+#login{
+	width: 90%;
+	border-radius: 10px;
+	border: none;
+	font-size: 18px;
+	margin: 10px 0px 5px 0px;
+/*	border-radius: none;*/
+/*	width: 88%;*/
+	padding: 15px 18px;
+/*	background-color: #0090FF;*/
+	background-color: #1877f2;
+	font-weight: bold;
+	color: white;
+/*	border: none;*/
+}
+
+#login:hover{
+	background-color: #1879f2;
+	cursor: pointer;
+}
+
+
+.formbody a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #1877f2;
+}
+
+
+#account{
+	padding: 17px 23px;
+	border-radius: 10px;
+	font-size: 17px;
+	color: white;
+	font-weight: bolder;
+
+
+/*	width: 60%;*/
+	background-color: #42b72a;
+} 
+
+
+@media screen and (max-width:1000px){
+	.contain{
+		flex-wrap: wrap;
+/*		flex-direction: column;*/
+		text-align: center;
+	}
+	.formbody{
+		text-align: center;
+		margin: 34px 0px 0px 0px;
+	}
+	.formimg{
+		text-align: center;
+		margin: 0;
+	}
+}
