@@ -1,2 +1,2 @@
 # facebook_clone
-@ryanofficialjain Facebook Clone | 🚀 Check out my #FacebookClone project on GitHub! 👨‍💻 This fully functional #socialmedia #webapp is built with #React, #NodeJS, #MongoDB and #Firebase. Explore the codebase and contribute to this exciting project today! #opensource #codingcommunity #webdevelopment
+Looking to build a Facebook clone with HTML and CSS? Look no further than this GitHub repository! Our comprehensive guide will walk you through the process, giving you the skills you need to create a stunning and functional social networking site. #FacebookClone #HTML #CSS #GitHubRepository #WebDevelopment and you can also connect me on linked in profile - https://www.linkedin.com/in/aryan-jain-124717272/
